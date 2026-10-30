@@ -40,4 +40,4 @@ https://satoru-tanaka-1977.github.io/cj-beginner-store3-v2/
 
 ## 制作状況
 
-制作中（2026.10.29〜）
+制作中（2026.10.30〜）
