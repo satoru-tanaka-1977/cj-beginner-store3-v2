@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #000;
+  background-color: #E6E2D7;
+  font-size: 1rem;
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1024px;
+}
+
+.section-title {
+  writing-mode: vertical-rl;
+  font-weight: normal;
+}
+
+.section-title__en {
+  font-size: 0.875rem;
+}
+
+.section-title__ja {
+  font-size: 2.25rem;
+}/*# sourceMappingURL=style.css.map */
