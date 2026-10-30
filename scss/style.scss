@@ -12,7 +12,7 @@ html {
 
 body {
   color: #000;
-  background-color: #E6E2D7;
+  background-color: #e6e2d7;
   font-size: 1rem;
   font-family: "Noto Serif JP", serif;
 }
@@ -38,10 +38,53 @@ ul {
 .section-title {
   writing-mode: vertical-rl;
   font-weight: normal;
-}
-.section-title__en{
+  &__en {
     font-size: 0.875rem;
-}
-.section-title__ja {
+  }
+  &__ja {
     font-size: 2.25rem;
+  }
+}
+
+// Header
+.header {
+  background-image: url(../img/mainvisual-pc.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  &__title {
+    width: 40px;
+    position: absolute;
+    right: 80px;
+    top: 60px;
+  }
+  &__nav {
+    color: #fff;
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: 180px;
+    top: 60px;
+    li {
+      margin-left: 25px;
+    }
+  }
+  &__online-store {
+    writing-mode: vertical-rl;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 8px;
+    a {
+      display: block;
+      color: #fff;
+      border: solid 1px #ccc;
+      padding: 30px 18px;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
 }
